@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+header {
+    padding: 50px;
+    text-align: center;
+}
+
+#head {
+    margin: 10px;
+}
+
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: rgb(250, 165, 9);
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+button:hover {
+    background-color: rgb(134, 88, 2);
+    color: #ffffff;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+article {
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 360px;
+    height: 100%;
+}
+
+article:hover {
+    box-shadow: 5px 5px 5px grey;
+}
+
+article div, p {
+    padding: 20px;
+
+}
+
+img {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 100%;
+    height: 250px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+.info h3 {
+    padding: 5px 0;
+}
+
+.info h4 {
+    padding: 5px 15px;
+}
+
+.info h4 {
+    color: #fff;
+    border-radius: 5px;
+    background-color: rgb(255, 165, 0);
+}
+
+@media screen and (max-width: 475px) {
+    button {
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    button {
+        margin: 1px;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    button {
+        padding: 10px 15px;
+    }
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Landing Page</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div id="head">
+            <h1>Our Menu</h1>
+            <h1 style="color: orange;">_____</h1>
+        </div>
+        <div id="navbtn">
+            <button onclick="filterMenu('all')">All</button>
+            <button onclick="filterMenu('biryani')">Biryani</button>
+            <button onclick="filterMenu('karahi')">Karahi</button>
+            <button onclick="filterMenu('kabab')">Kabab</button>
+        </div>
+    </header>
+    <main>
+
+        <article class="item" data-category="biryani">
+            <img src="./Asset/Bir Aloo.jpg" alt="Aloo Biryani">
+            <div class="info">
+                <h3>Aloo Biryani</h3>
+                <h4>Rs: 280</h4>
+            </div>
+            <p class="itm-txt">
+                Try Our Special Aloo Biryani with Raita and Salad And We Guarantee You Will Love It. You Want Spicy?
+                You Have It, You Want Mild? You Have It. Just Ask When You Order.
+            </p>
+        </article>
+        <article class="item" data-category="biryani">
+            <img src="./Asset/Bir Chi.jpg" alt="Aloo Biryani">
+            <div class="info">
+                <h3>Chicken Biryani</h3>
+                <h4>Rs: 350</h4>
+            </div>
+            <p class="itm-txt">
+                Try Our Special Chicken Biryani with Raita and Salad And We Guarantee You Will Love It. You Want Spicy?
+                You Have It, You Want Mild? You Have It. Just Ask When You Order.
+            </p>
+        </article>
+        <article class="item" data-category="biryani">
+            <img src="./Asset/Bir Bom.jpg" alt="Aloo Biryani">
+            <div class="info">
+                <h3>Bombay Biryani</h3>
+                <h4>Rs: 400</h4>
+            </div>
+            <p class="itm-txt">
+                Try Our Special Beef Bombay Biryani with Raita and Salad And We Guarantee You Will Love It. You Want
+                Spicy?
+                You Have It, You Want Mild? You Have It. Just Ask When You Order.
+            </p>
+        </article>
+        <article class="item" data-category="biryani">
+            <img src="./Asset/Bir Bana.jpg" alt="Aloo Biryani">
+            <div class="info">
+                <h3>Banarsi Biryani</h3>
+                <h4>Rs: 450</h4>
+            </div>
+            <p class="itm-txt">
+                Try Our Special Banarsi Biryani with Raita and Salad And We Guarantee You Will Love It. You Want Spicy?
+                You Have It, You Want Mild? You Have It. Just Ask When You Order.
+            </p>
+        </article>
+        <article class="item" data-category="karahi">
+            <img src="./Asset/Kar Bee.jpg" alt="Aloo Biryani">
+            <div class="info">
+                <h3>Beef Karahi</h3>
+                <h4>Rs: 280</h4>
+            </div>
+            <p class="itm-txt">
+                Try Our Special Beef Karahi with Naan And We Guarantee You Will Love It. You Want Spicy?
+                You Have It, You Want Mild? You Have It. Just Ask When You Order.
+            </p>
+        </article>
+        <article class="item" data-category="karahi">
+            <img src="./Asset/Kar Chi.jpg" alt="Aloo Biryani">
+            <div class="info">
+                <h3>Chicken Karahi</h3>
+                <h4>Rs: 280</h4>
+            </div>
+            <p class="itm-txt">
+                Try Our Special Chicken Karahi with Naan And We Guarantee You Will Love It. You Want Spicy?
+                You
+                Have It, You Want Mild? You Have It. Just Ask When You Order.
+            </p>
+        </article>
+        <article class="item" data-category="karahi">
+            <img src="./Asset/Kar Mut.jpg" alt="Aloo Biryani">
+            <div class="info">
+                <h3>Mutton Karahi</h3>
+                <h4>Rs: 280</h4>
+            </div>
+            <p class="itm-txt">
+                Try Our Special Mutton Karahi With Naan And We Guarantee You Will Love It. You Want Spicy?
+                You
+                Have It, You Want Mild? You Have It. Just Ask When You Order.
+            </p>
+        </article>
+        <article class="item" data-category="karahi">
+            <img src="./Asset/Kar Chi Whi.jpg" alt="Aloo Biryani">
+            <div class="info">
+                <h3>Chicken White Karahi</h3>
+                <h4>Rs: 280</h4>
+            </div>
+            <p class="itm-txt">
+                Try Our Most Special Chicken White Karahi With Naan And Paratha And We Guarantee You Will Love It. You
+                Want Spicy?
+                You
+                Have It, You Want Mild? You Have It. Just Ask When You Order.
+            </p>
+        </article>
+        <article class="item" data-category="kabab">
+            <img src="./Asset/Keb Sha.jpg" alt="Aloo Biryani">
+            <div class="info">
+                <h3>Shami Kabab</h3>
+                <h4>Rs: 280</h4>
+            </div>
+            <p class="itm-txt">
+                Try Our Special Shami Kabab with Raita And We Guarantee You Will Love It. You Want Spicy?
+                You
+                Have It, You Want Mild? You Have It. Just Ask When You Order.
+            </p>
+        </article>
+        <article class="item" data-category="kabab">
+            <img src="./Asset/Kab Cha.jpg" alt="Aloo Biryani">
+            <div class="info">
+                <h3>Chapli Kabab</h3>
+                <h4>Rs: 280</h4>
+            </div>
+            <p class="itm-txt">
+                Try Our Special Chapli Kabab with Raita And We Guarantee You Will Love It. You Want Spicy?
+                You
+                Have It, You Want Mild? You Have It. Just Ask When You Order.
+            </p>
+        </article>
+        <article class="item" data-category="kabab">
+            <img src="./Asset/Kab Tik.jpg" alt="Aloo Biryani">
+            <div class="info">
+                <h3>Tikka Kabab</h3>
+                <h4>Rs: 280</h4>
+            </div>
+            <p class="itm-txt">
+                Try Our Special Tikka Kabab with Raita And We Guarantee You Will Love It. You Want Spicy?
+                You
+                Have It, You Want Mild? You Have It. Just Ask When You Order.
+            </p>
+        </article>
+        <article class="item" data-category="kabab">
+            <img src="./Asset/Keb See.jpg" alt="Aloo Biryani">
+            <div class="info">
+                <h3>Seekh Kabab</h3>
+                <h4>Rs: 280</h4>
+            </div>
+            <p class="itm-txt">
+                Try Our Special Seekh Kabab with Raita And We Guarantee You Will Love It. You Want Spicy?
+                You
+                Have It, You Want Mild? You Have It. Just Ask When You Order.
+            </p>
+        </article>
+    </main>
+    <footer>
+        
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
