@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(./Assets/BG3.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    height: 50%;
+}
+
+h1 {
+    color: #fff;
+}
+
+input {
+    width: 60%;
+    height: 30px;
+    margin: 20px;
+    opacity: 0.4;
+    border-radius: 10px;
+}
+
+input:focus {
+    opacity: 1;
+}
+
+button {
+    font-weight: bolder;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#addBtn {
+    color: #000;
+    background-color: greenyellow;
+}
+
+#getBtn {
+    color: #fff;
+    background-color: blue;
+}
+
+#delBtn {
+    color: #fff;
+    background-color: red;
+}
+
+#totalBtn {
+    color: #000;
+    background-color: yellow;
+}
+
+#showEmployee {
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+}
