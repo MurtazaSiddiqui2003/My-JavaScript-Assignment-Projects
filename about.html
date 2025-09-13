@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        * {
+            text-align: center;
+            font-family: serif;
+        }
+
+        body {
+            background-color: rgb(128, 128, 128);
+        }
+
+        button {
+            border-radius: 5px;
+            background-color: #58ec1e;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <h1>Welcome</h1>
+    
+    <button id="btn">Go Back</button>
+
+    <script>
+        var btn = document.getElementById("btn")
+        btn.addEventListener("click",
+            function() {
+                window.location.href = "index.html"
+            })
+    </script>
+</body>
+
+</html>
