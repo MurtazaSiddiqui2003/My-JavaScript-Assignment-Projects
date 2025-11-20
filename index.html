@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            min-height: 100vh;
+        }
+
+        body,
+        .big,
+        .med {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .big {
+            height: 600px;
+            width: 600px;
+            background-color: red;
+        }
+
+        .med {
+            height: 400px;
+            width: 400px;
+            background-color: green;
+        }
+
+        .sml {
+            height: 200px;
+            width: 200px;
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="big" onclick="bigDiv()">
+        <div class="med"onclick="medDiv()">
+            <div class="sml"onclick="smlDiv()">
+
+            </div>
+        </div>
+    </div>
+    <script>
+        const bigDiv = () => {
+            console.log('Big Div Clicked')
+        }
+        const medDiv = () => {
+            console.log('Medium Div Clicked')
+        }
+        const smlDiv = () => {
+            console.log('Small Div Clicked')
+        }
+        // var bigDiv = document.getElementsByClassName('.big')
+        // var medDiv = document.getElementsByClassName('.med')
+        // var smlDiv = document.getElementsByClassName('.sml')
+    </script>
+</body>
+
+</html>
